@@ -1,0 +1,85 @@
+{
+    "os": "Linux-5.19.0-41-generic-x86_64-with-glibc2.36",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-04-27T21:05:50.027183",
+    "startedAt": "2023-04-27T21:05:49.458834",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/train.py",
+    "codePath": "esc-50/train.py",
+    "git": {
+        "remote": "https://github.com/jhartquist/fastaudio-experiments.git",
+        "commit": "b663bb56e517a4b6a02b62a268724fab0a0da3b7"
+    },
+    "email": "alexanderlabouff@gmail.com",
+    "root": "/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments",
+    "host": "lalex",
+    "username": "lalex",
+    "executable": "/home/lalex/Munka/Pycharmprojects/envs/fastai2/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3457.9493749999997,
+        "min": 400.0,
+        "max": 4200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3569.369,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 4077.352,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3854.557,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3583.111,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1068.958,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 4008.465,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 4015.877,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3485.906,
+            "min": 400.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "total": 233.17998886108398,
+        "used": 128.74419784545898
+    },
+    "gpu": "NVIDIA GeForce MX350",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX350",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 7.504474639892578
+    }
+}

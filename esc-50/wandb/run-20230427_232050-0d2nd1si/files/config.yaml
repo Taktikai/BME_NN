@@ -1,0 +1,78 @@
+wandb_version: 1
+
+sample_rate:
+  desc: null
+  value: 44100
+n_fft:
+  desc: null
+  value: 4096
+n_mels:
+  desc: null
+  value: 224
+hop_length:
+  desc: null
+  value: 441
+win_length:
+  desc: null
+  value: 1764
+f_max:
+  desc: null
+  value: 20000
+arch:
+  desc: null
+  value: resnet34
+learning_rate:
+  desc: null
+  value: 0.01
+n_epochs:
+  desc: null
+  value: 20
+batch_size:
+  desc: null
+  value: 64
+mix_up:
+  desc: null
+  value: 0.4
+normalize:
+  desc: null
+  value: true
+trial_num:
+  desc: null
+  value: 1
+fold:
+  desc: null
+  value: 1
+_wandb:
+  desc: null
+  value:
+    code_path: code/esc-50/train.py
+    python_version: 3.9.16
+    cli_version: 0.15.0
+    framework: fastai
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1682630450.361034
+    t:
+      1:
+      - 1
+      - 4
+      - 5
+      - 33
+      - 41
+      - 53
+      - 55
+      2:
+      - 1
+      - 4
+      - 5
+      - 33
+      - 41
+      - 53
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.9.16
+      5: 0.15.0
+      8:
+      - 5

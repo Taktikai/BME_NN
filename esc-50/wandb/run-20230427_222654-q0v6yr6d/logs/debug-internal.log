@@ -1,0 +1,198 @@
+2023-04-27 22:26:54,090 INFO    StreamThr :37740 [internal.py:wandb_internal():86] W&B internal server running at pid: 37740, started at: 2023-04-27 22:26:54.090531
+2023-04-27 22:26:54,091 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: status
+2023-04-27 22:26:54,092 INFO    WriterThread:37740 [datastore.py:open_for_write():85] open: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/run-q0v6yr6d.wandb
+2023-04-27 22:26:54,093 DEBUG   SenderThread:37740 [sender.py:send():375] send: header
+2023-04-27 22:26:54,106 DEBUG   SenderThread:37740 [sender.py:send():375] send: run
+2023-04-27 22:26:54,596 INFO    SenderThread:37740 [dir_watcher.py:__init__():219] watching files in: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files
+2023-04-27 22:26:54,596 INFO    SenderThread:37740 [sender.py:_start_run_threads():1124] run started: q0v6yr6d with start time 1682627214.09025
+2023-04-27 22:26:54,596 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: summary_record
+2023-04-27 22:26:54,597 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: check_version
+2023-04-27 22:26:54,597 INFO    SenderThread:37740 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-27 22:26:54,597 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: check_version
+2023-04-27 22:26:54,713 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: run_start
+2023-04-27 22:26:54,719 DEBUG   HandlerThread:37740 [system_info.py:__init__():31] System info init
+2023-04-27 22:26:54,719 DEBUG   HandlerThread:37740 [system_info.py:__init__():46] System info init done
+2023-04-27 22:26:54,719 INFO    HandlerThread:37740 [system_monitor.py:start():181] Starting system monitor
+2023-04-27 22:26:54,719 INFO    SystemMonitor:37740 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-27 22:26:54,719 INFO    HandlerThread:37740 [system_monitor.py:probe():201] Collecting system info
+2023-04-27 22:26:54,720 INFO    SystemMonitor:37740 [interfaces.py:start():190] Started cpu monitoring
+2023-04-27 22:26:54,720 INFO    SystemMonitor:37740 [interfaces.py:start():190] Started disk monitoring
+2023-04-27 22:26:54,721 INFO    SystemMonitor:37740 [interfaces.py:start():190] Started gpu monitoring
+2023-04-27 22:26:54,721 INFO    SystemMonitor:37740 [interfaces.py:start():190] Started memory monitoring
+2023-04-27 22:26:54,721 INFO    SystemMonitor:37740 [interfaces.py:start():190] Started network monitoring
+2023-04-27 22:26:54,728 ERROR   gpu       :37740 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-27 22:26:54,728 ERROR   gpu       :37740 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-27 22:26:54,729 DEBUG   HandlerThread:37740 [system_info.py:probe():195] Probing system
+2023-04-27 22:26:54,729 DEBUG   HandlerThread:37740 [system_info.py:_probe_git():180] Probing git
+2023-04-27 22:26:54,743 DEBUG   HandlerThread:37740 [system_info.py:_probe_git():188] Probing git done
+2023-04-27 22:26:54,743 DEBUG   HandlerThread:37740 [system_info.py:probe():240] Probing system done
+2023-04-27 22:26:54,743 DEBUG   HandlerThread:37740 [system_monitor.py:probe():210] {'os': 'Linux-5.19.0-41-generic-x86_64-with-glibc2.36', 'python': '3.9.16', 'heartbeatAt': '2023-04-27T20:26:54.729138', 'startedAt': '2023-04-27T20:26:54.086598', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/train.py', 'codePath': 'esc-50/train.py', 'git': {'remote': 'https://github.com/jhartquist/fastaudio-experiments.git', 'commit': 'b663bb56e517a4b6a02b62a268724fab0a0da3b7'}, 'email': 'alexanderlabouff@gmail.com', 'root': '/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments', 'host': 'lalex', 'username': 'lalex', 'executable': '/home/lalex/Munka/Pycharmprojects/envs/fastai2/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2990.5446249999995, 'min': 400.0, 'max': 4200.0}, 'cpu_freq_per_core': [{'current': 1601.04, 'min': 400.0, 'max': 4200.0}, {'current': 3769.152, 'min': 400.0, 'max': 4200.0}, {'current': 2400.0, 'min': 400.0, 'max': 4200.0}, {'current': 3800.874, 'min': 400.0, 'max': 4200.0}, {'current': 2400.0, 'min': 400.0, 'max': 4200.0}, {'current': 2353.281, 'min': 400.0, 'max': 4200.0}, {'current': 3800.01, 'min': 400.0, 'max': 4200.0}, {'current': 3800.0, 'min': 400.0, 'max': 4200.0}], 'disk': {'total': 233.17998886108398, 'used': 128.73667907714844}, 'gpu': 'NVIDIA GeForce MX350', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce MX350', 'memory_total': 2147483648}], 'memory': {'total': 7.504474639892578}}
+2023-04-27 22:26:54,743 INFO    HandlerThread:37740 [system_monitor.py:probe():211] Finished collecting system info
+2023-04-27 22:26:54,743 INFO    HandlerThread:37740 [system_monitor.py:probe():214] Publishing system info
+2023-04-27 22:26:54,743 DEBUG   HandlerThread:37740 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-27 22:26:54,743 DEBUG   HandlerThread:37740 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-27 22:26:54,743 DEBUG   HandlerThread:37740 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-04-27 22:26:55,598 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/conda-environment.yaml
+2023-04-27 22:26:55,598 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/requirements.txt
+2023-04-27 22:26:55,598 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/wandb-summary.json
+2023-04-27 22:26:56,728 ERROR   gpu       :37740 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-27 22:26:56,728 ERROR   gpu       :37740 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-04-27 22:26:56,936 DEBUG   HandlerThread:37740 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-27 22:26:56,936 DEBUG   HandlerThread:37740 [system_info.py:_save_code():89] Saving code
+2023-04-27 22:26:56,942 DEBUG   HandlerThread:37740 [system_info.py:_save_code():110] Saving code done
+2023-04-27 22:26:56,942 DEBUG   HandlerThread:37740 [system_info.py:_save_patches():127] Saving git patches
+2023-04-27 22:26:56,987 DEBUG   HandlerThread:37740 [system_info.py:_save_patches():169] Saving git patches done
+2023-04-27 22:26:56,987 INFO    HandlerThread:37740 [system_monitor.py:probe():216] Finished publishing system info
+2023-04-27 22:26:56,989 DEBUG   SenderThread:37740 [sender.py:send():375] send: files
+2023-04-27 22:26:56,990 INFO    SenderThread:37740 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-04-27 22:26:56,990 INFO    SenderThread:37740 [sender.py:_save_file():1378] saving file code/esc-50/train.py with policy now
+2023-04-27 22:26:56,990 INFO    SenderThread:37740 [sender.py:_save_file():1378] saving file diff.patch with policy now
+2023-04-27 22:26:56,995 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-27 22:26:56,995 DEBUG   SenderThread:37740 [sender.py:send():375] send: telemetry
+2023-04-27 22:26:56,996 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: stop_status
+2023-04-27 22:26:57,530 INFO    wandb-upload_1:37740 [upload_job.py:push():117] Skipped uploading /tmp/tmpikzciv3hwandb/yfewlnyp-code/esc-50/train.py
+2023-04-27 22:26:57,532 DEBUG   SenderThread:37740 [sender.py:send():375] send: exit
+2023-04-27 22:26:57,532 INFO    SenderThread:37740 [sender.py:send_exit():598] handling exit code: 1
+2023-04-27 22:26:57,532 INFO    SenderThread:37740 [sender.py:send_exit():600] handling runtime: 2
+2023-04-27 22:26:57,532 INFO    SenderThread:37740 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-27 22:26:57,533 INFO    SenderThread:37740 [sender.py:send_exit():606] send defer
+2023-04-27 22:26:57,533 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:26:57,533 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-27 22:26:57,533 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:26:57,533 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-04-27 22:26:57,533 INFO    SenderThread:37740 [sender.py:transition_state():626] send defer: 1
+2023-04-27 22:26:57,533 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:26:57,533 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-27 22:26:57,533 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:26:57,533 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-04-27 22:26:57,533 INFO    SenderThread:37740 [sender.py:transition_state():626] send defer: 2
+2023-04-27 22:26:57,533 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:26:57,533 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-27 22:26:57,533 INFO    HandlerThread:37740 [system_monitor.py:finish():190] Stopping system monitor
+2023-04-27 22:26:57,533 DEBUG   SystemMonitor:37740 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-04-27 22:26:57,533 INFO    HandlerThread:37740 [interfaces.py:finish():202] Joined cpu monitor
+2023-04-27 22:26:57,534 DEBUG   SystemMonitor:37740 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-04-27 22:26:57,534 INFO    HandlerThread:37740 [interfaces.py:finish():202] Joined disk monitor
+2023-04-27 22:26:57,534 DEBUG   SystemMonitor:37740 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-04-27 22:26:57,549 ERROR   gpu       :37740 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-04-27 22:26:57,549 INFO    HandlerThread:37740 [interfaces.py:finish():202] Joined gpu monitor
+2023-04-27 22:26:57,549 INFO    HandlerThread:37740 [interfaces.py:finish():202] Joined memory monitor
+2023-04-27 22:26:57,549 INFO    HandlerThread:37740 [interfaces.py:finish():202] Joined network monitor
+2023-04-27 22:26:57,549 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:26:57,549 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-04-27 22:26:57,549 INFO    SenderThread:37740 [sender.py:transition_state():626] send defer: 3
+2023-04-27 22:26:57,550 DEBUG   SenderThread:37740 [sender.py:send():375] send: stats
+2023-04-27 22:26:57,550 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:26:57,550 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-27 22:26:57,550 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:26:57,550 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-04-27 22:26:57,550 INFO    SenderThread:37740 [sender.py:transition_state():626] send defer: 4
+2023-04-27 22:26:57,550 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:26:57,550 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-27 22:26:57,550 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:26:57,550 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-04-27 22:26:57,550 INFO    SenderThread:37740 [sender.py:transition_state():626] send defer: 5
+2023-04-27 22:26:57,550 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:26:57,550 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-27 22:26:57,550 DEBUG   SenderThread:37740 [sender.py:send():375] send: summary
+2023-04-27 22:26:57,551 INFO    SenderThread:37740 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-27 22:26:57,551 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:26:57,551 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-04-27 22:26:57,551 INFO    SenderThread:37740 [sender.py:transition_state():626] send defer: 6
+2023-04-27 22:26:57,551 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:26:57,551 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-27 22:26:57,551 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:26:57,551 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-04-27 22:26:57,553 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: status_report
+2023-04-27 22:26:57,597 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/conda-environment.yaml
+2023-04-27 22:26:57,597 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/wandb-summary.json
+2023-04-27 22:26:57,598 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/code/esc-50/train.py
+2023-04-27 22:26:57,598 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/wandb-metadata.json
+2023-04-27 22:26:57,598 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/diff.patch
+2023-04-27 22:26:57,598 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/output.log
+2023-04-27 22:26:57,598 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/code
+2023-04-27 22:26:57,598 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/code/esc-50
+2023-04-27 22:26:57,836 INFO    wandb-upload_0:37740 [upload_job.py:push():137] Uploaded file /tmp/tmpikzciv3hwandb/uesvhneg-wandb-metadata.json
+2023-04-27 22:26:57,839 INFO    SenderThread:37740 [sender.py:transition_state():626] send defer: 7
+2023-04-27 22:26:57,839 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:26:57,839 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-27 22:26:57,840 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:26:57,840 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-04-27 22:26:57,939 INFO    wandb-upload_2:37740 [upload_job.py:push():137] Uploaded file /tmp/tmpikzciv3hwandb/hzaph4s4-diff.patch
+2023-04-27 22:26:58,060 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-27 22:26:58,598 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/config.yaml
+2023-04-27 22:26:59,598 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/output.log
+2023-04-27 22:27:01,539 INFO    SenderThread:37740 [sender.py:transition_state():626] send defer: 8
+2023-04-27 22:27:01,540 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: poll_exit
+2023-04-27 22:27:01,540 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:27:01,540 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-27 22:27:01,540 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:27:01,540 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-04-27 22:27:01,549 INFO    SenderThread:37740 [sender.py:transition_state():626] send defer: 9
+2023-04-27 22:27:01,549 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:27:01,549 DEBUG   SenderThread:37740 [sender.py:send():375] send: artifact
+2023-04-27 22:27:01,549 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-27 22:27:01,599 INFO    Thread-12 :37740 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/output.log
+2023-04-27 22:27:02,596 INFO    SenderThread:37740 [sender.py:send_artifact():1474] sent artifact job-https___github.com_jhartquist_fastaudio-experiments.git_esc-50_train.py - {'id': 'QXJ0aWZhY3Q6NDM1MDEzMTky', 'digest': 'cca4f0aad8eb769390db5847f45c5105', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_jhartquist_fastaudio-experiments.git_esc-50_train.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_jhartquist_fastaudio-experiments.git_esc-50_train.py', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY1MDE1OTA0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDM1MDYyMTg5', 'versionIndex': 1}}, 'version': 'v0'}
+2023-04-27 22:27:02,596 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:27:02,596 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-04-27 22:27:02,596 INFO    SenderThread:37740 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-04-27 22:27:02,599 INFO    SenderThread:37740 [dir_watcher.py:finish():395] scan: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files
+2023-04-27 22:27:02,599 INFO    SenderThread:37740 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/diff.patch diff.patch
+2023-04-27 22:27:02,599 INFO    SenderThread:37740 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/output.log output.log
+2023-04-27 22:27:02,599 INFO    SenderThread:37740 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/conda-environment.yaml conda-environment.yaml
+2023-04-27 22:27:02,600 INFO    SenderThread:37740 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/wandb-metadata.json wandb-metadata.json
+2023-04-27 22:27:02,600 INFO    SenderThread:37740 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/requirements.txt requirements.txt
+2023-04-27 22:27:02,601 INFO    SenderThread:37740 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/wandb-summary.json wandb-summary.json
+2023-04-27 22:27:02,602 INFO    SenderThread:37740 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/config.yaml config.yaml
+2023-04-27 22:27:02,608 INFO    SenderThread:37740 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/code/esc-50/train.py code/esc-50/train.py
+2023-04-27 22:27:02,608 INFO    SenderThread:37740 [sender.py:transition_state():626] send defer: 10
+2023-04-27 22:27:02,608 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:27:02,608 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-27 22:27:02,609 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:27:02,609 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-04-27 22:27:02,609 INFO    SenderThread:37740 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-27 22:27:03,062 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-27 22:27:03,083 INFO    wandb-upload_1:37740 [upload_job.py:push():137] Uploaded file /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/output.log
+2023-04-27 22:27:03,100 INFO    wandb-upload_0:37740 [upload_job.py:push():137] Uploaded file /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/conda-environment.yaml
+2023-04-27 22:27:03,150 INFO    wandb-upload_3:37740 [upload_job.py:push():137] Uploaded file /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/wandb-summary.json
+2023-04-27 22:27:03,161 INFO    wandb-upload_2:37740 [upload_job.py:push():137] Uploaded file /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/requirements.txt
+2023-04-27 22:27:03,271 INFO    wandb-upload_4:37740 [upload_job.py:push():137] Uploaded file /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/files/config.yaml
+2023-04-27 22:27:03,471 INFO    Thread-11 :37740 [sender.py:transition_state():626] send defer: 11
+2023-04-27 22:27:03,472 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:27:03,472 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-27 22:27:03,472 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:27:03,472 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-04-27 22:27:03,472 INFO    SenderThread:37740 [file_pusher.py:join():173] waiting for file pusher
+2023-04-27 22:27:03,472 INFO    SenderThread:37740 [sender.py:transition_state():626] send defer: 12
+2023-04-27 22:27:03,472 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:27:03,472 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-27 22:27:03,472 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:27:03,472 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-04-27 22:27:03,845 INFO    SenderThread:37740 [sender.py:transition_state():626] send defer: 13
+2023-04-27 22:27:03,845 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:27:03,845 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-27 22:27:03,845 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:27:03,845 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-04-27 22:27:03,845 INFO    SenderThread:37740 [sender.py:transition_state():626] send defer: 14
+2023-04-27 22:27:03,845 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: defer
+2023-04-27 22:27:03,845 INFO    HandlerThread:37740 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-27 22:27:03,846 DEBUG   SenderThread:37740 [sender.py:send():375] send: final
+2023-04-27 22:27:03,846 DEBUG   SenderThread:37740 [sender.py:send():375] send: footer
+2023-04-27 22:27:03,846 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: defer
+2023-04-27 22:27:03,846 INFO    SenderThread:37740 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-04-27 22:27:03,846 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-27 22:27:03,846 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: poll_exit
+2023-04-27 22:27:03,847 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: server_info
+2023-04-27 22:27:03,847 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-27 22:27:03,847 DEBUG   SenderThread:37740 [sender.py:send_request():402] send_request: server_info
+2023-04-27 22:27:03,848 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-27 22:27:04,049 INFO    MainThread:37740 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-04-27 22:27:04,049 INFO    MainThread:37740 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-04-27 22:27:04,049 INFO    MainThread:37740 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2023-04-27 22:27:04,049 DEBUG   HandlerThread:37740 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-27 22:27:04,049 INFO    HandlerThread:37740 [handler.py:finish():845] shutting down handler
+2023-04-27 22:27:04,847 INFO    WriterThread:37740 [datastore.py:close():298] close: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230427_222654-q0v6yr6d/run-q0v6yr6d.wandb
+2023-04-27 22:27:05,049 INFO    SenderThread:37740 [sender.py:finish():1550] shutting down sender
+2023-04-27 22:27:05,049 INFO    SenderThread:37740 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-27 22:27:05,049 INFO    SenderThread:37740 [file_pusher.py:join():173] waiting for file pusher

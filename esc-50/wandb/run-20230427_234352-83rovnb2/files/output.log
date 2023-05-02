@@ -1,0 +1,32 @@
+Config: {
+  "sample_rate": 44100,
+  "n_fft": 4096,
+  "n_mels": 224,
+  "hop_length": 441,
+  "win_length": 1764,
+  "f_max": 20000,
+  "arch": "resnet34",
+  "learning_rate": 0.01,
+  "n_epochs": 20,
+  "batch_size": 64,
+  "mix_up": 0.4,
+  "normalize": true,
+  "trial_num": 1,
+  "fold": 1
+}
+Traceback (most recent call last):
+  File "/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/train.py", line 51, in <module>
+    data = get_data(batch_tfms=batch_tfms,
+  File "/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/utils.py", line 18, in get_data
+    df = pd.read_csv(path / 'meta' / 'esc50.csv')
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/data/dogscats/meta/esc50.csv'

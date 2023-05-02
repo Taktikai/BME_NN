@@ -1,0 +1,27 @@
+Config: {
+  "sample_rate": 44100,
+  "n_fft": 4096,
+  "n_mels": 224,
+  "hop_length": 441,
+  "win_length": 1764,
+  "f_max": 20000,
+  "arch": "resnet34",
+  "learning_rate": 0.01,
+  "n_epochs": 20,
+  "batch_size": 4,
+  "mix_up": 0.4,
+  "normalize": true,
+  "trial_num": 1,
+  "fold": 1
+}
+/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/data/dogscats/audio/2-100648-A-43.wav
+/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/data/dogscats/audio/2-100648-A-43.wav
+/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/data/dogscats/audio/2-100648-A-43.wav
+/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/data/dogscats/audio/2-100648-A-43.wav
+wandb: Network error resolved after 0:00:01.204861, resuming normal operation.
+Traceback (most recent call last):
+  File "/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/train.py", line 66, in <module>
+    learn = get_learner(data, arch,
+  File "/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/utils.py", line 34, in get_learner
+    config=create_body(n_in=n_channels),
+TypeError: create_body() missing 1 required positional argument: 'arch'

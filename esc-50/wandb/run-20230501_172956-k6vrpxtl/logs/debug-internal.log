@@ -1,0 +1,215 @@
+2023-05-01 17:29:56,310 INFO    StreamThr :9018 [internal.py:wandb_internal():86] W&B internal server running at pid: 9018, started at: 2023-05-01 17:29:56.310522
+2023-05-01 17:29:56,311 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: status
+2023-05-01 17:29:56,312 INFO    WriterThread:9018 [datastore.py:open_for_write():85] open: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/run-k6vrpxtl.wandb
+2023-05-01 17:29:56,313 DEBUG   SenderThread:9018 [sender.py:send():375] send: header
+2023-05-01 17:29:56,329 DEBUG   SenderThread:9018 [sender.py:send():375] send: run
+2023-05-01 17:29:57,355 INFO    SenderThread:9018 [dir_watcher.py:__init__():219] watching files in: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files
+2023-05-01 17:29:57,355 INFO    SenderThread:9018 [sender.py:_start_run_threads():1124] run started: k6vrpxtl with start time 1682954996.31039
+2023-05-01 17:29:57,355 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: summary_record
+2023-05-01 17:29:57,355 INFO    SenderThread:9018 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-01 17:29:57,358 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: check_version
+2023-05-01 17:29:57,358 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: check_version
+2023-05-01 17:29:57,607 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: run_start
+2023-05-01 17:29:57,626 DEBUG   HandlerThread:9018 [system_info.py:__init__():31] System info init
+2023-05-01 17:29:57,626 DEBUG   HandlerThread:9018 [system_info.py:__init__():46] System info init done
+2023-05-01 17:29:57,626 INFO    HandlerThread:9018 [system_monitor.py:start():181] Starting system monitor
+2023-05-01 17:29:57,626 INFO    SystemMonitor:9018 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-01 17:29:57,626 INFO    HandlerThread:9018 [system_monitor.py:probe():201] Collecting system info
+2023-05-01 17:29:57,626 INFO    SystemMonitor:9018 [interfaces.py:start():190] Started cpu monitoring
+2023-05-01 17:29:57,627 INFO    SystemMonitor:9018 [interfaces.py:start():190] Started disk monitoring
+2023-05-01 17:29:57,627 INFO    SystemMonitor:9018 [interfaces.py:start():190] Started gpu monitoring
+2023-05-01 17:29:57,628 INFO    SystemMonitor:9018 [interfaces.py:start():190] Started memory monitoring
+2023-05-01 17:29:57,628 INFO    SystemMonitor:9018 [interfaces.py:start():190] Started network monitoring
+2023-05-01 17:29:57,652 DEBUG   HandlerThread:9018 [system_info.py:probe():195] Probing system
+2023-05-01 17:29:57,653 DEBUG   HandlerThread:9018 [system_info.py:_probe_git():180] Probing git
+2023-05-01 17:29:57,653 ERROR   gpu       :9018 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-01 17:29:57,654 ERROR   gpu       :9018 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-01 17:29:57,665 DEBUG   HandlerThread:9018 [system_info.py:_probe_git():188] Probing git done
+2023-05-01 17:29:57,665 DEBUG   HandlerThread:9018 [system_info.py:probe():240] Probing system done
+2023-05-01 17:29:57,665 DEBUG   HandlerThread:9018 [system_monitor.py:probe():210] {'os': 'Linux-5.19.0-41-generic-x86_64-with-glibc2.36', 'python': '3.9.16', 'heartbeatAt': '2023-05-01T15:29:57.652720', 'startedAt': '2023-05-01T15:29:56.306636', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/train.py', 'codePath': 'esc-50/train.py', 'git': {'remote': 'https://github.com/jhartquist/fastaudio-experiments.git', 'commit': 'b663bb56e517a4b6a02b62a268724fab0a0da3b7'}, 'email': 'alexanderlabouff@gmail.com', 'root': '/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments', 'host': 'lalex', 'username': 'lalex', 'executable': '/home/lalex/Munka/Pycharmprojects/envs/fastai2/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3586.4636250000003, 'min': 400.0, 'max': 4200.0}, 'cpu_freq_per_core': [{'current': 3705.688, 'min': 400.0, 'max': 4200.0}, {'current': 3561.438, 'min': 400.0, 'max': 4200.0}, {'current': 2875.796, 'min': 400.0, 'max': 4200.0}, {'current': 3800.009, 'min': 400.0, 'max': 4200.0}, {'current': 3805.013, 'min': 400.0, 'max': 4200.0}, {'current': 3431.024, 'min': 400.0, 'max': 4200.0}, {'current': 3712.741, 'min': 400.0, 'max': 4200.0}, {'current': 3800.0, 'min': 400.0, 'max': 4200.0}], 'disk': {'total': 233.17998886108398, 'used': 131.65501403808594}, 'gpu': 'NVIDIA GeForce MX350', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce MX350', 'memory_total': 2147483648}], 'memory': {'total': 7.504478454589844}}
+2023-05-01 17:29:57,665 INFO    HandlerThread:9018 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-01 17:29:57,665 INFO    HandlerThread:9018 [system_monitor.py:probe():214] Publishing system info
+2023-05-01 17:29:57,665 DEBUG   HandlerThread:9018 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-01 17:29:57,665 DEBUG   HandlerThread:9018 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-01 17:29:57,665 DEBUG   HandlerThread:9018 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-01 17:29:58,357 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/wandb-summary.json
+2023-05-01 17:29:58,357 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/requirements.txt
+2023-05-01 17:29:58,357 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/conda-environment.yaml
+2023-05-01 17:29:59,655 ERROR   gpu       :9018 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-01 17:29:59,655 ERROR   gpu       :9018 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-01 17:29:59,789 DEBUG   HandlerThread:9018 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-01 17:29:59,789 DEBUG   HandlerThread:9018 [system_info.py:_save_code():89] Saving code
+2023-05-01 17:29:59,794 DEBUG   HandlerThread:9018 [system_info.py:_save_code():110] Saving code done
+2023-05-01 17:29:59,794 DEBUG   HandlerThread:9018 [system_info.py:_save_patches():127] Saving git patches
+2023-05-01 17:29:59,831 DEBUG   HandlerThread:9018 [system_info.py:_save_patches():169] Saving git patches done
+2023-05-01 17:29:59,831 INFO    HandlerThread:9018 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-01 17:29:59,833 DEBUG   SenderThread:9018 [sender.py:send():375] send: files
+2023-05-01 17:29:59,833 INFO    SenderThread:9018 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-01 17:29:59,833 INFO    SenderThread:9018 [sender.py:_save_file():1378] saving file code/esc-50/train.py with policy now
+2023-05-01 17:29:59,834 INFO    SenderThread:9018 [sender.py:_save_file():1378] saving file diff.patch with policy now
+2023-05-01 17:29:59,837 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-01 17:29:59,839 DEBUG   SenderThread:9018 [sender.py:send():375] send: telemetry
+2023-05-01 17:29:59,839 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: stop_status
+2023-05-01 17:30:00,075 INFO    wandb-upload_1:9018 [upload_job.py:push():117] Skipped uploading /tmp/tmpftfr4q2cwandb/yteq0de9-code/esc-50/train.py
+2023-05-01 17:30:00,358 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/conda-environment.yaml
+2023-05-01 17:30:00,358 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/wandb-metadata.json
+2023-05-01 17:30:00,358 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/code/esc-50/train.py
+2023-05-01 17:30:00,358 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/output.log
+2023-05-01 17:30:00,359 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/diff.patch
+2023-05-01 17:30:00,359 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/code
+2023-05-01 17:30:00,359 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_created():278] file/dir created: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/code/esc-50
+2023-05-01 17:30:00,466 INFO    wandb-upload_0:9018 [upload_job.py:push():137] Uploaded file /tmp/tmpftfr4q2cwandb/fa9mh2h7-wandb-metadata.json
+2023-05-01 17:30:00,466 INFO    wandb-upload_2:9018 [upload_job.py:push():137] Uploaded file /tmp/tmpftfr4q2cwandb/f0puod4m-diff.patch
+2023-05-01 17:30:01,656 ERROR   gpu       :9018 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-01 17:30:01,656 ERROR   gpu       :9018 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-01 17:30:02,058 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: status_report
+2023-05-01 17:30:02,359 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/output.log
+2023-05-01 17:30:03,657 ERROR   gpu       :9018 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-01 17:30:03,657 ERROR   gpu       :9018 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-01 17:30:05,658 ERROR   gpu       :9018 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-01 17:30:05,658 ERROR   gpu       :9018 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-01 17:30:07,059 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: status_report
+2023-05-01 17:30:07,659 ERROR   gpu       :9018 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-01 17:30:07,659 ERROR   gpu       :9018 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-05-01 17:30:09,381 DEBUG   SenderThread:9018 [sender.py:send():375] send: exit
+2023-05-01 17:30:09,381 INFO    SenderThread:9018 [sender.py:send_exit():598] handling exit code: 1
+2023-05-01 17:30:09,381 INFO    SenderThread:9018 [sender.py:send_exit():600] handling runtime: 11
+2023-05-01 17:30:09,383 INFO    SenderThread:9018 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-01 17:30:09,383 INFO    SenderThread:9018 [sender.py:send_exit():606] send defer
+2023-05-01 17:30:09,384 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:09,384 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-01 17:30:09,384 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:09,384 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-01 17:30:09,384 INFO    SenderThread:9018 [sender.py:transition_state():626] send defer: 1
+2023-05-01 17:30:09,384 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:09,384 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-01 17:30:09,384 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:09,385 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-01 17:30:09,385 INFO    SenderThread:9018 [sender.py:transition_state():626] send defer: 2
+2023-05-01 17:30:09,385 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:09,385 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-01 17:30:09,385 INFO    HandlerThread:9018 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-01 17:30:09,385 INFO    HandlerThread:9018 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-01 17:30:09,385 DEBUG   SystemMonitor:9018 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-01 17:30:09,385 INFO    HandlerThread:9018 [interfaces.py:finish():202] Joined disk monitor
+2023-05-01 17:30:09,385 DEBUG   SystemMonitor:9018 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-01 17:30:09,385 DEBUG   SystemMonitor:9018 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-01 17:30:09,403 ERROR   gpu       :9018 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-05-01 17:30:09,404 INFO    HandlerThread:9018 [interfaces.py:finish():202] Joined gpu monitor
+2023-05-01 17:30:09,404 INFO    HandlerThread:9018 [interfaces.py:finish():202] Joined memory monitor
+2023-05-01 17:30:09,404 INFO    HandlerThread:9018 [interfaces.py:finish():202] Joined network monitor
+2023-05-01 17:30:09,404 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:09,404 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-01 17:30:09,404 INFO    SenderThread:9018 [sender.py:transition_state():626] send defer: 3
+2023-05-01 17:30:09,404 DEBUG   SenderThread:9018 [sender.py:send():375] send: stats
+2023-05-01 17:30:09,404 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:09,405 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-01 17:30:09,405 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:09,405 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-01 17:30:09,405 INFO    SenderThread:9018 [sender.py:transition_state():626] send defer: 4
+2023-05-01 17:30:09,405 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:09,405 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-01 17:30:09,405 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:09,405 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-01 17:30:09,405 INFO    SenderThread:9018 [sender.py:transition_state():626] send defer: 5
+2023-05-01 17:30:09,405 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:09,405 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-01 17:30:09,405 DEBUG   SenderThread:9018 [sender.py:send():375] send: summary
+2023-05-01 17:30:09,405 INFO    SenderThread:9018 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-01 17:30:09,406 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:09,406 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-01 17:30:09,406 INFO    SenderThread:9018 [sender.py:transition_state():626] send defer: 6
+2023-05-01 17:30:09,406 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:09,406 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-01 17:30:09,406 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:09,406 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-01 17:30:09,409 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: status_report
+2023-05-01 17:30:10,362 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/wandb-summary.json
+2023-05-01 17:30:10,381 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-01 17:30:10,767 INFO    SenderThread:9018 [sender.py:transition_state():626] send defer: 7
+2023-05-01 17:30:10,767 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: poll_exit
+2023-05-01 17:30:10,767 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:10,767 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-01 17:30:10,768 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:10,768 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-01 17:30:11,363 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/config.yaml
+2023-05-01 17:30:11,381 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-01 17:30:12,363 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/output.log
+2023-05-01 17:30:13,386 INFO    SenderThread:9018 [sender.py:transition_state():626] send defer: 8
+2023-05-01 17:30:13,386 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: poll_exit
+2023-05-01 17:30:13,386 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:13,386 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-01 17:30:13,386 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:13,386 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-01 17:30:13,394 INFO    SenderThread:9018 [sender.py:transition_state():626] send defer: 9
+2023-05-01 17:30:13,394 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:13,394 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-01 17:30:13,394 DEBUG   SenderThread:9018 [sender.py:send():375] send: artifact
+2023-05-01 17:30:14,364 INFO    Thread-12 :9018 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/output.log
+2023-05-01 17:30:15,473 INFO    wandb-upload_2:9018 [upload_job.py:push():92] Skipped uploading /home/lalex/.local/share/wandb/artifacts/staging/tmpdsrunsu9
+2023-05-01 17:30:15,473 INFO    wandb-upload_0:9018 [upload_job.py:push():92] Skipped uploading /home/lalex/.local/share/wandb/artifacts/staging/tmprdoxijzd
+2023-05-01 17:30:16,196 INFO    wandb-upload_1:9018 [upload_job.py:push():95] Uploaded file /home/lalex/.local/share/wandb/artifacts/staging/tmpzgceva45
+2023-05-01 17:30:16,383 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-01 17:30:18,242 INFO    SenderThread:9018 [sender.py:send_artifact():1474] sent artifact job-https___github.com_jhartquist_fastaudio-experiments.git_esc-50_train.py - {'id': 'QXJ0aWZhY3Q6NDM4NjYzNjMw', 'digest': 'fb00c2950d7eb639a4359ae2a4d8e421', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY1MDE1OTA0', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDM1MTgxOTI0', 'versionIndex': 10}}, 'version': 'latest'}
+2023-05-01 17:30:18,242 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:18,242 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-01 17:30:18,242 INFO    SenderThread:9018 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-01 17:30:18,365 INFO    SenderThread:9018 [dir_watcher.py:finish():395] scan: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files
+2023-05-01 17:30:18,365 INFO    SenderThread:9018 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/diff.patch diff.patch
+2023-05-01 17:30:18,365 INFO    SenderThread:9018 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/output.log output.log
+2023-05-01 17:30:18,365 INFO    SenderThread:9018 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/conda-environment.yaml conda-environment.yaml
+2023-05-01 17:30:18,365 INFO    SenderThread:9018 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/wandb-metadata.json wandb-metadata.json
+2023-05-01 17:30:18,365 INFO    SenderThread:9018 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/requirements.txt requirements.txt
+2023-05-01 17:30:18,366 INFO    SenderThread:9018 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/wandb-summary.json wandb-summary.json
+2023-05-01 17:30:18,370 INFO    SenderThread:9018 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/config.yaml config.yaml
+2023-05-01 17:30:18,374 INFO    SenderThread:9018 [dir_watcher.py:finish():409] scan save: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/code/esc-50/train.py code/esc-50/train.py
+2023-05-01 17:30:18,374 INFO    SenderThread:9018 [sender.py:transition_state():626] send defer: 10
+2023-05-01 17:30:18,374 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:18,374 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-01 17:30:18,374 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:18,374 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-01 17:30:18,375 INFO    SenderThread:9018 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-01 17:30:18,960 INFO    wandb-upload_0:9018 [upload_job.py:push():137] Uploaded file /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/conda-environment.yaml
+2023-05-01 17:30:18,960 INFO    wandb-upload_3:9018 [upload_job.py:push():137] Uploaded file /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/wandb-summary.json
+2023-05-01 17:30:18,975 INFO    wandb-upload_2:9018 [upload_job.py:push():137] Uploaded file /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/output.log
+2023-05-01 17:30:18,976 INFO    wandb-upload_1:9018 [upload_job.py:push():137] Uploaded file /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/requirements.txt
+2023-05-01 17:30:19,278 INFO    wandb-upload_4:9018 [upload_job.py:push():137] Uploaded file /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/files/config.yaml
+2023-05-01 17:30:19,375 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: status_report
+2023-05-01 17:30:19,478 INFO    Thread-11 :9018 [sender.py:transition_state():626] send defer: 11
+2023-05-01 17:30:19,479 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:19,479 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-01 17:30:19,479 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:19,479 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-01 17:30:19,479 INFO    SenderThread:9018 [file_pusher.py:join():173] waiting for file pusher
+2023-05-01 17:30:19,479 INFO    SenderThread:9018 [sender.py:transition_state():626] send defer: 12
+2023-05-01 17:30:19,479 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:19,479 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-01 17:30:19,479 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:19,479 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-01 17:30:19,688 INFO    SenderThread:9018 [sender.py:transition_state():626] send defer: 13
+2023-05-01 17:30:19,689 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:19,689 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-01 17:30:19,689 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:19,689 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-01 17:30:19,689 INFO    SenderThread:9018 [sender.py:transition_state():626] send defer: 14
+2023-05-01 17:30:19,689 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: defer
+2023-05-01 17:30:19,689 INFO    HandlerThread:9018 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-01 17:30:19,689 DEBUG   SenderThread:9018 [sender.py:send():375] send: final
+2023-05-01 17:30:19,690 DEBUG   SenderThread:9018 [sender.py:send():375] send: footer
+2023-05-01 17:30:19,690 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: defer
+2023-05-01 17:30:19,690 INFO    SenderThread:9018 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-01 17:30:19,690 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-01 17:30:19,690 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: server_info
+2023-05-01 17:30:19,690 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: poll_exit
+2023-05-01 17:30:19,690 DEBUG   SenderThread:9018 [sender.py:send_request():402] send_request: server_info
+2023-05-01 17:30:19,691 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-01 17:30:19,692 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-01 17:30:19,857 INFO    MainThread:9018 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-05-01 17:30:19,857 INFO    MainThread:9018 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-05-01 17:30:19,857 INFO    MainThread:9018 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2023-05-01 17:30:19,858 DEBUG   HandlerThread:9018 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-01 17:30:19,858 INFO    HandlerThread:9018 [handler.py:finish():845] shutting down handler
+2023-05-01 17:30:20,690 INFO    WriterThread:9018 [datastore.py:close():298] close: /home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/wandb/run-20230501_172956-k6vrpxtl/run-k6vrpxtl.wandb
+2023-05-01 17:30:20,857 INFO    SenderThread:9018 [sender.py:finish():1550] shutting down sender
+2023-05-01 17:30:20,857 INFO    SenderThread:9018 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-01 17:30:20,857 INFO    SenderThread:9018 [file_pusher.py:join():173] waiting for file pusher

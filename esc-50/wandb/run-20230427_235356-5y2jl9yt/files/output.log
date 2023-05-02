@@ -1,0 +1,20 @@
+Config: {
+  "sample_rate": 44100,
+  "n_fft": 4096,
+  "n_mels": 224,
+  "hop_length": 441,
+  "win_length": 1764,
+  "f_max": 20000,
+  "arch": "resnet34",
+  "learning_rate": 0.01,
+  "n_epochs": 20,
+  "batch_size": 64,
+  "mix_up": 0.4,
+  "normalize": true,
+  "trial_num": 1,
+  "fold": 1
+}
+/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/data/dogscats/audio/2-100648-A-43.wav
+/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/data/dogscats/audio/2-100648-A-43.wav
+/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/data/dogscats/audio/2-100648-A-43.wav
+/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/data/dogscats/audio/2-100648-A-43.wav

@@ -1,0 +1,48 @@
+Traceback (most recent call last):
+  File "/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/train.py", line 51, in <module>
+    data = get_data(batch_tfms=batch_tfms,
+  File "/home/lalex/Munka/PycharmProjects2/BME/Thesis/fastaudio-experiments/esc-50/utils.py", line 28, in get_data
+    data = data_block.dataloaders(df, bs=batch_size)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/fastai/data/block.py", line 113, in dataloaders
+    dsets = self.datasets(source, verbose=verbose)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/fastai/data/block.py", line 110, in datasets
+    return Datasets(items, tfms=self._combine_type_tfms(), splits=splits, dl_type=self.dl_type, n_inp=self.n_inp, verbose=verbose)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/fastai/data/core.py", line 329, in __init__
+    self.tls = L(tls if tls else [TfmdLists(items, t, **kwargs) for t in L(ifnone(tfms,[None]))])
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/fastai/data/core.py", line 329, in <listcomp>
+    self.tls = L(tls if tls else [TfmdLists(items, t, **kwargs) for t in L(ifnone(tfms,[None]))])
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/fastcore/foundation.py", line 97, in __call__
+    return super().__call__(x, *args, **kwargs)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/fastai/data/core.py", line 255, in __init__
+    self.setup(train_setup=train_setup)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/fastai/data/core.py", line 277, in setup
+    x = f(x)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/fastcore/transform.py", line 73, in __call__
+    def __call__(self, x, **kwargs): return self._call('encodes', x, **kwargs)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/fastcore/transform.py", line 83, in _call
+    return self._do_call(getattr(self, fn), x, **kwargs)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/fastcore/transform.py", line 89, in _do_call
+    return retain_type(f(x, **kwargs), x, ret)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/fastcore/dispatch.py", line 118, in __call__
+    return f(*args, **kwargs)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/fastaudio/core/signal.py", line 93, in create
+    sig, sr = torchaudio.load(fn, **kwargs)
+  File "/home/lalex/Munka/Pycharmprojects/envs/fastai2/lib/python3.9/site-packages/torchaudio/backend/sox_io_backend.py", line 152, in load
+    return torch.ops.torchaudio.sox_io_load_audio_file(
+RuntimeError: Error loading audio file: failed to open file.
+Config: {
+  "sample_rate": 44100,
+  "n_fft": 4096,
+  "n_mels": 224,
+  "hop_length": 441,
+  "win_length": 1764,
+  "f_max": 20000,
+  "arch": "resnet34",
+  "learning_rate": 0.01,
+  "n_epochs": 20,
+  "batch_size": 64,
+  "mix_up": 0.4,
+  "normalize": true,
+  "trial_num": 1,
+  "fold": 1
+}
